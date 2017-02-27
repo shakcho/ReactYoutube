@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# ReactYouTube
 
 A simple Youtube Clone built on top of ReactJS, WebPack & Babel and ES6.
 
