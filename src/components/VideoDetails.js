@@ -19,7 +19,7 @@ const VideoDetails = ({video}) => {
      			<param name="allowscriptaccess" value="always"/>
      			<embed width="640" height="360" src={url} allowscriptaccess="always" allowFullScreen="true"/>
 			</object> */}
-		<iframe src={url}></iframe>
+		<iframe width="640" height="360" src={url}></iframe>
 		</div>
 		<div className="desc">
 		<h3>{video.snippet.title}</h3>

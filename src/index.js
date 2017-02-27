@@ -27,8 +27,10 @@ class App extends React.Component{
 	render() {
 		return (
 			<div>
-				<h1>from react app component</h1>
-				<SearchBar onSearchTermChange={term => this.searchVideo(term)} />
+				<header>
+					<h1>ReactYouTube</h1>
+					<SearchBar onSearchTermChange={term => this.searchVideo(term)} />
+				</header>
 				<div className="row">
 					<VideoDetail video={this.state.selectedVideo} />
 					<VideoList 
