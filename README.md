@@ -2,7 +2,7 @@
 
 A simple Youtube Clone built on top of ReactJS, WebPack & Babel and ES6.
 
-####Installation
+### Installation
 Clone this repo and run the following commands.
 
 ```
